@@ -34,8 +34,12 @@ hr {
 }
 .row {
     width: 100%;
-    margin:0;
     padding:0;
+    margin: 0;
+}
+iframe {
+    width:470px;
+    height: 340px;
 }
 .caption {
     background-color: rgb(171, 151, 192);
@@ -45,7 +49,6 @@ hr {
     float: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 footer {
     background-color: #000;
     color: #fff;
@@ -56,4 +59,11 @@ footer {
 #bottom a {
     color: inherit;
     font-weight: 900;
+}
+
+@media screen and (max-width: 1449px) {
+    iframe {
+        width:370px;
+        height: 240px;
+    }
 }
